@@ -1,0 +1,506 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.left {
+  display: flex;
+  color: aliceblue;
+  font-size: 20px;
+}
+.right {
+  display: flex;
+  gap: 50px;
+}
+.right > img {
+  width: 50px;
+}
+.right > ul {
+  display: flex;
+  gap: 30px;
+}
+.item {
+  list-style: none;
+}
+.lin {
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+}
+body {
+  background-color: black;
+}
+.giua {
+  margin-top: 100px;
+  display: flex;
+}
+.trai {
+  margin-left: 100px;
+}
+.border {
+  display: flex;
+  color: black;
+  gap: 20px;
+  border: 2px solid coral;
+  margin-right: 1680px;
+  border-radius: 50px;
+  align-items: center;
+  background-color: chocolate;
+  height: 50px;
+  width: 300px;
+  margin-left: 40px;
+  justify-content: center;
+}
+.border > img {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+}
+.chu {
+  color: aliceblue;
+  font-size: 50px;
+}
+.cuoi {
+  color: coral;
+  font-size: 50px;
+}
+.p {
+  color: aliceblue;
+  font-size: 30px;
+  margin-right: 1000px;
+}
+.nut {
+  color: aliceblue;
+  border: 2px solid coral;
+  margin-right: 1500px;
+  text-align: center;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  line-height: 40px;
+  border-radius: 20px;
+  background-color: coral;
+  cursor: pointer;
+}
+/*
+.hang1 {
+  display: flex;
+  gap: 100px;
+  margin-left: -700px;
+}
+.khoi1 {
+  border: 1px solid white;
+  width: 150p;
+  height: 200px;
+  align-items: center;
+}
+.anh1 {
+  color: aliceblue;
+}
+.khoi2 {
+  /*border: 1px solid white;
+  width: 150p;
+  height: 200px;
+}
+
+.anh2 {
+  color: aliceblue;
+}
+.anh1 > img {
+  width: 200px;
+  border-radius: 50%;
+}
+.anh2 > img {
+  width: 200px;
+  border-radius: 50%;
+  height: 250px;
+}
+.hang2 {
+  display: flex;
+  margin-left: -700px;
+  gap: 100px;
+}
+.anh3 > img {
+  border-radius: 50%;
+  width: 200px;
+}
+.anh4 > img {
+  border-radius: 50%;
+  width: 200px;
+ } */
+.hang1 {
+  display: flex;
+  margin-left: -850px;
+  gap: 100px;
+  margin-top: 50px;
+}
+.anh1 > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: -100px;
+  /* tự điều chỉnh ảnh nhìn cho đẹp trong border-radius */
+  object-fit: cover;
+}
+.khoi1 {
+  border: 2px solid coral;
+  color: white;
+  height: 300px;
+  width: 300px;
+  background-color: coral;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+}
+.anh2 > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: -100px;
+  object-fit: cover;
+}
+.khoi2 {
+  border: 2px solid coral;
+  color: white;
+  background-color: coral;
+  border-radius: 50px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+}
+.hang2 {
+  display: flex;
+  margin-left: -850px;
+  gap: 100px;
+  margin-top: 50px;
+}
+
+.anh3 > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: -100px;
+  object-fit: cover;
+}
+.khoi3 {
+  border: 2px solid coral;
+  color: white;
+  height: 300px;
+  width: 300px;
+  background-color: coral;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  margin-top: 100px;
+}
+.anh4 > img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  margin-top: -100px;
+  object-fit: cover;
+}
+.khoi4 {
+  border: 2px solid coral;
+  color: white;
+  background-color: coral;
+  border-radius: 50px;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin-top: 100px;
+}
+.tiep {
+  color: white;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.search {
+  display: flex;
+  gap: 30px;
+}
+.thanh > input {
+  margin-top: 20px;
+  width: 1800px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.icon > i {
+  font-size: 25px;
+  margin-top: 20px;
+  border: 1px solid coral;
+  height: 45px;
+  width: 50px;
+  text-align: center;
+  background-color: coral;
+  border-radius: 10px;
+  cursor: pointer;
+  line-height: 45px;
+}
+.san {
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.vien {
+  border: 1px solid dimgray;
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: dimgray;
+}
+.picture > img {
+  height: 500px;
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.fornt {
+  color: white;
+
+  margin-left: 250px;
+  font-size: 20px;
+}
+.sp {
+  color: white;
+  margin-left: 100px;
+}
+.new {
+  display: flex;
+  text-align: center;
+  gap: 100px;
+  margin-top: 100px;
+  margin-left: 600px;
+
+  justify-content: center;
+}
+.iconn > i {
+  margin-top: 20px;
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: brown;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+.one {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.new {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.one:hover {
+  background-color: crimson;
+}
+.two {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.two:hover {
+  background-color: crimson;
+}
+.there {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.there:hover {
+  background-color: crimson;
+}
+.four {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.four:hover {
+  background-color: crimson;
+}
+.five {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.five:hover {
+  background-color: crimson;
+}
+.six {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.six:hover {
+  background-color: blue;
+}
+.seven {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.seven:hover {
+  background-color: blue;
+}
+.eight {
+  border: 2px solid white;
+  height: 200px;
+  width: 100px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.eight:hover {
+  background-color: blue;
+}
+.all {
+  text-align: center;
+  margin-left: -200px;
+}
+.a {
+  margin-top: 100px;
+  border: 1px solid dimgray;
+  margin-left: 250px;
+  margin-right: 100px;
+  background-color: dimgray;
+}
+.in > img {
+  height: 500px;
+  width: 1000px;
+  margin-top: 100px;
+  text-align: center;
+}
+.oke {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+}
+.ter {
+  color: white;
+  margin-left: 50px;
+}
+.foo {
+  margin-top: 100px;
+}
+footer {
+  align-items: center;
+  border: 1px solid dimgrey;
+  text-align: center;
+  background-color: dimgrey;
+}
+
+.m > ul {
+  display: flex;
+  gap: 500px;
+  margin-top: 50px;
+  list-style: none;
+}
+.bll {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.r {
+  display: flex;
+  gap: 200px;
+}
+.don {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.dong2 > ul {
+  display: flex;
+  gap: 550px;
+  margin-left: 500px;
+  margin-top: -20px;
+  list-style: none;
+}
+.dong3 > ul {
+  margin-top: 50px;
+  display: flex;
+  gap: 310px;
+  list-style: none;
+}
+.dong4 > ul {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+.cach1 {
+  display: flex;
+  gap: 540px;
+  margin-left: 10px;
+}
+.dod {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.cach {
+  display: flex;
+  gap: 520px;
+  margin-left: 170px;
+}
+.dong4 > ul {
+  display: flex;
+  gap: 405px;
+}
+.sos {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.did {
+  display: flex;
+  gap: 555px;
+  margin-left: 150px;
+}
+.cung {
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
